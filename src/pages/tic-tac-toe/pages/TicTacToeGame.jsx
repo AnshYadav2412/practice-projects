@@ -43,6 +43,11 @@ const TicTacToeGame = () => {
       setWinner("Player 1");
     } else if (player2Wins) {
       setWinner("Player 2");
+    } else if (
+      playerInputs.player1.length >= 5 ||
+      playerInputs.player2.length >= 5
+    ) {
+      setWinner("No one");
     }
   }, [playerInputs]);
 

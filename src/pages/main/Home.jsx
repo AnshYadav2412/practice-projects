@@ -17,6 +17,11 @@ const Home = () => {
             Tic-Tac-Toe
           </a>
         </li>
+        <li>
+          <a href="/gravity-sim" className="text-blue-400">
+            Gravity Simulator
+          </a>
+        </li>
       </ul>
     </div>
   );

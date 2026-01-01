@@ -3,6 +3,7 @@ import PasswordChecker from "./pages/password-please/PasswordChecker";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/main/Home";
 import TicTacToeGame from "./pages/tic-tac-toe/pages/TicTacToeGame";
+import Gravity from "./pages/gravity-simulator/Gravity";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Route path="/" element={<Home />} />
       <Route path="/pass-checker" element={<PasswordChecker />} />
       <Route path="/tic-tac-toe" element={<TicTacToeGame />} />
+      <Route path="/gravity-sim" element={<Gravity />} />
     </Routes>
   );
 };
