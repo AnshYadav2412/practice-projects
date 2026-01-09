@@ -3,8 +3,8 @@ function createBall(x, y, r, ctx, color) {
     x,
     y,
     r,
-    vx: 10,
-    vy: -10,
+    vx: Math.random() * 80 - 40,
+    vy: Math.random() * -40,
     ctx,
     color,
 

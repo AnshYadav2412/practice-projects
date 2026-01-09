@@ -19,7 +19,7 @@ const Home = () => {
         </li>
         <li>
           <a href="/gravity-sim" className="text-blue-400">
-            Gravity Simulator
+            Gravity and Collision Simulator
           </a>
         </li>
       </ul>

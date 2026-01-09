@@ -18,7 +18,7 @@ const TicTacToeGame = () => {
       }
 
       const copy = [...prev];
-      copy[index] = currentPlayer ? "O" : "X";
+      copy[index] = currentPlayer ? "⭕" : "❌";
 
       currentPlayer
         ? setPlayerInputs((prevInput) => ({
