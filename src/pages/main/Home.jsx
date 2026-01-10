@@ -22,6 +22,11 @@ const Home = () => {
             Gravity and Collision Simulator
           </a>
         </li>
+        <li>
+          <a href="/context-api" className="text-blue-400">
+            Context Api
+          </a>
+        </li>
       </ul>
     </div>
   );
