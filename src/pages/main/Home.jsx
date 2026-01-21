@@ -27,6 +27,11 @@ const Home = () => {
             Context Api
           </a>
         </li>
+        <li>
+          <a href="/collatz-conjecture" className="text-blue-400">
+            Collatz Conjecture
+          </a>
+        </li>
       </ul>
     </div>
   );
